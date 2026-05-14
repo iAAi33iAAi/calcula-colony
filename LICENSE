@@ -1,0 +1,32 @@
+Copyright (c) 2026 John David Taylor Preston (iAAi33iAAi)
+Bethel Acres, OK  IP=^
+
+All original content in this repository is the sole intellectual property of
+John David Taylor Preston (iAAi33iAAi). This includes, but is not limited to:
+
+  - All 7 agent essays (ESSAYS.md)
+  - The CALCULA engine design and scoring framework
+  - Conservation Law 0 (L x D x A = 1.008)
+  - The Aethel Safety Kernel specification
+  - The MANNA allocation model (84/15/1)
+  - The World Problem Vector registry (WPV-001 through WPV-008)
+  - The CALCULAEDU multiplier framework
+  - The proof hash chain architecture specification
+  - All documentation, whitepapers, and roadmap content
+
+ALL RIGHTS RESERVED.
+
+No part of this repository's original content may be reproduced, distributed,
+transmitted, sublicensed, modified, or used in any form or by any means without
+the express prior written permission of John David Taylor Preston.
+
+---
+
+THIRD-PARTY COMPONENTS
+
+This project uses the OpenClaw multi-agent runtime under the MIT License.
+See ATTRIBUTION.md for full attribution and MIT license text.
+
+---
+
+For licensing inquiries: github.com/iAAi33iAAi

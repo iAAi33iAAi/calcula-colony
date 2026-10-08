@@ -1,156 +1,57 @@
-# 🦞 CALCULA Colony
+CALCULA Colony
+===============
 
-> **A governance technology for planetary infrastructure.**
-> Not a charity. Not a startup. A system that cannot be captured.
+Research and design package for a proposed multi-agent governance framework.
 
-![Mission](https://img.shields.io/badge/CALCULA_Mission-v0.5.0-orange)
-![LQ](https://img.shields.io/badge/Colony_LQ-0.916-brightgreen)
-![Conservation Law](https://img.shields.io/badge/L×D×A-1.008-purple)
-![Runtime](https://img.shields.io/badge/Runtime-OpenClaw_MIT-blue)
-![License](https://img.shields.io/badge/Original_IP-All_Rights_Reserved-red)
+CURRENT REPOSITORY STATE
+------------------------
+The current repository contains:
+- ESSAYS.md
+- WHITEPAPER.md
+- ROADMAP.md
+- ATTRIBUTION.md
+- LICENSE / LICENSE.txt
+- supporting text material
 
-**Author:** John David Taylor Preston / iAAi33iAAi — Bethel Acres, OK  
-**Conservation Law 0:** `L × D × A = 1.008`
+The current repository does not contain an executable CALCULA engine, a Rust AETHEL Safety Kernel, a deployed colony runtime, or a production transaction system.
 
----
+DESIGN MODEL
+------------
+The project describes seven conceptual roles and a six-dimension evaluation model:
+- Flourishing: 25%
+- Harm Reduction: 20%
+- Equity: 20%
+- Regenerative Capacity: 15%
+- Cooperation: 12%
+- Beauty: 8%
 
-## The Problem
+These weights are a proposed project model, not an independently validated scientific law.
 
-The systems that produce world problems are also the systems that evaluate the solutions.
+MANNA
+-----
+Project material describes:
+- 84% Community
+- 15% Crew
+- 1% Architect
 
-- **2.2 billion people** lack clean water — costing **$330B/year** in healthcare and lost productivity
-- **828 million people** go to bed hungry every night
-- **$800B/year** flows through global philanthropy — yet the problems are getting worse
-- The bottleneck is not money. **The bottleneck is governance.**
+This is a design allocation, not evidence of a live payment protocol.
 
-Most solutions are built inside the same economic logic that created the problems. They can be captured. They can be privatized. They can be turned against the communities they were meant to serve.
+AGENT MATERIAL
+--------------
+The repository contains essay/document material for the seven conceptual roles. LQ scores appearing in older documents are documentation artifacts unless tied to a reproducible scoring implementation and evidence record in this repository.
 
----
+SAFETY / GOVERNANCE
+-------------------
+The AETHEL Safety Kernel belongs to the broader portfolio architecture, but the current CALCULA repository does not ship that kernel. Claims such as structurally incapable of capture should therefore be read as design intent, not as an established security property.
 
-## The Solution
+IMPLEMENTATION PATH
+-------------------
+A production implementation would require a reproducible engine, explicit schemas, executable invariants, independent tests, and externally verifiable deployment evidence.
 
-CALCULA Colony is a **multi-agent governance framework** that routes solutions to world-scale problems through a composite love-quality filter and a Rust-enforced safety kernel. It is structurally incapable — at the code level — of the failure modes that plague conventional philanthropy and development finance.
+ATTRIBUTION
+-----------
+OpenClaw attribution is documented in ATTRIBUTION.md. No OpenClaw runtime dependency is vendored in the current repository tree.
 
-> *"The Aethel kernel does not negotiate. You cannot bribe it. You cannot lobby it. You cannot acquire it and change its values. The values are in the code."*
-
----
-
-## How It Works
-
-### The CALCULA Engine
-
-Every proposed solution is scored across 6 dimensions. Solutions below **LQ 0.85** are returned for revision — not because they are bad, but because the communities they serve deserve genuinely good solutions.
-
-| Dimension | Weight | What It Measures |
-|---|---|---|
-| 🌱 Flourishing | 25% | Does the solution help people genuinely thrive? |
-| 🛡️ Harm Reduction | 20% | Does it reduce harm rather than displace it? |
-| ⚖️ Equity | 20% | Does it distribute benefits equitably? |
-| ♻️ Regenerative Capacity | 15% | Does it restore systems rather than deplete them? |
-| 🤝 Cooperation | 12% | Does it build cooperation rather than dependency? |
-| ✨ Beauty | 8% | Does it belong in the world? |
-
-### The Aethel Safety Kernel (Rust)
-
-Three constitutional gates. No exceptions. Every decision cryptographically hashed and logged.
-
-| Gate | What It Blocks |
-|---|---|
-| Gate 1: Sovereignty | Any action without explicit human consent |
-| Gate 2: Love Quality | Any solution scoring below LQ 0.85 |
-| Gate 3: Extraction-Free | Any proposal containing extraction signatures |
-
-Policy can be overridden. Language-level constraints cannot. The kernel is written in Rust — a class of safety errors is impossible by construction.
-
-### The MANNA Allocation Model
-
-```
-84% → Community   (correct accounting — community is the value source)
-15% → Crew        (fair compensation for skilled builders)
- 1% → Architect   (acknowledgment, not enrichment)
-```
-
-### The Proof Hash Chain
-
-Every CALCULA evaluation generates a SHA-256 hash of the full decision record. Written to an append-only ledger. When the colony says it has never let an extraction signature through its gates — that claim is **cryptographically provable**, not merely asserted.
-
----
-
-## The 7 Agents
-
-| Agent | Essay Title | LQ Score |
-|---|---|---|
-| 🧭 Strategic | On the Architecture of Change | 0.919 ✅ |
-| 💻 Technical | On the Ethics of Code | 0.902 ✅ |
-| 📦 Resources | On the True Cost of Everything | 0.941 ✅ |
-| 📣 Comms | On the Courage to Speak Plainly | 0.893 ✅ |
-| 🔬 Analysis | On the Discipline of Not Knowing | 0.888 ✅ |
-| ✅ Quality | On the Meaning of the Threshold | 0.937 ✅ |
-| 💡 Innovation | On the Geometry of the Possible | 0.934 ✅ |
-
-**Colony Composite LQ: 0.916** — All 7 agents above threshold.
-
-Full essays: [`ESSAYS.md`](ESSAYS.md)
-
----
-
-## The Business Case
-
-### WPV-001: Clean Water — Proof of Concept
-
-| Metric | Value |
-|---|---|
-| People without clean water | 2.2 billion |
-| Annual cost of the water crisis | $330B/year |
-| Colony deployment cost per community (500 people, Year 1) | $13,000 |
-| Value generated per community over 10 years | $2,450,000 |
-| **10-Year ROI** | **94.2×** |
-
-### World Problem Vector Registry
-
-| Code | Problem | Scale |
-|---|---|---|
-| WPV-001 | Clean Water | 2.2B people |
-| WPV-003 | Food Security | 828M people |
-| WPV-005 | Health Infrastructure | 1.8B people |
-| WPV-006 | Education | 244M children out of school |
-| WPV-008 | Economic Sovereignty | Systemic / global |
-
-### Funding Target
-
-```
-Series A:  $50M
-Year 1:    Pilot — 3 communities, WPV-001 (water)
-Year 3:    Series A closes on verified proof hashes
-Year 5:    8 vectors, 1,000 communities, MANNA flowing at scale
-Year 10:   $35B in community value — compounding, not extractive
-```
-
----
-
-## Repository Structure
-
-```
-calcula-colony/
-├── README.md        ← Investor overview (you are here)
-├── ESSAYS.md        ← Full essays from all 7 agents
-├── WHITEPAPER.md    ← Technical & investment whitepaper
-├── ROADMAP.md       ← Funding milestones & deployment sequence
-├── ATTRIBUTION.md   ← OpenClaw MIT license attribution
-└── LICENSE          ← IP protection for original content
-```
-
----
-
-## Attribution & License
-
-This project uses the **OpenClaw** multi-agent runtime (MIT License) to orchestrate agent sessions. See [`ATTRIBUTION.md`](ATTRIBUTION.md) for full attribution.
-
-All original content — essays, CALCULA engine, Conservation Law 0, Aethel Safety Kernel, MANNA model, World Problem Vector registry — is the sole intellectual property of **John David Taylor Preston (iAAi33iAAi)**, Bethel Acres, OK.
-
-© 2026 John David Taylor Preston. All rights reserved.
-
----
-
-*"The colony thinks. The mirror reflects. The law holds."*  
-`IP=^ | crew-colony v0.5.0 | github.com/iAAi33iAAi/calcula-colony`
+LICENSE
+-------
+Original project content is governed by the repository license terms.

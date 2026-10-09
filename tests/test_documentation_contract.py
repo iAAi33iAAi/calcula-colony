@@ -30,7 +30,7 @@ class CalculaDocumentationContractTests(unittest.TestCase):
         readme = (ROOT / "README.md").read_text(encoding="utf-8").lower()
         self.assertIn("research and design package", readme)
         self.assertIn("does not contain an executable calcula engine", readme)
-        self.assertIn("not independently validated scientific law", readme)
+        self.assertIn("not an independently validated scientific law", readme)
         self.assertIn("not evidence of a live payment protocol", readme)
 
     def test_roadmap_labels_legacy_status_as_unverified(self) -> None:
@@ -38,7 +38,7 @@ class CalculaDocumentationContractTests(unittest.TestCase):
         self.assertIn("historical status snapshot", roadmap)
         self.assertIn("not verified against the current repository", roadmap)
         self.assertIn("not verified implementation evidence", roadmap)
-        self.assertIn("repeatable ci evidence", roadmap)
+        self.assertIn("repeatable ci results", roadmap)
 
     def test_documented_evaluation_weights_sum_to_one_hundred(self) -> None:
         readme = (ROOT / "README.md").read_text(encoding="utf-8")

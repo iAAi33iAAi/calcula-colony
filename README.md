@@ -4,6 +4,11 @@
 
 ## Current repository state
 
+## Evidence boundary for the roadmap
+
+The status block below is a historical planning snapshot, not current implementation evidence. As of 2026-10-09, this repository contains the research/design documents listed here but no executable CALCULA engine or reproducible test suite. Earlier statements that an engine or tests existed must not be treated as current verified implementation until versioned source code and repeatable CI evidence are present in this repository.
+
+
 The live repository contains essays, a whitepaper, a roadmap, attribution material, and license files.
 
 The current repository does not contain an executable CALCULA engine, a Rust AETHEL Safety Kernel, a deployed colony runtime, or a production transaction system.

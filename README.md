@@ -4,6 +4,7 @@
 
 ## Current repository state
 
+
 The live repository contains essays, a whitepaper, a roadmap, attribution material, and license files.
 
 The current repository does not contain an executable CALCULA engine, a Rust AETHEL Safety Kernel, a deployed colony runtime, or a production transaction system.

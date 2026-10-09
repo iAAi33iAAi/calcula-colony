@@ -1,11 +1,13 @@
 # CALCULA Colony — Roadmap
 ## CALCULA Mission v0.5.0 → v1.0.0
 
+> **Evidence status (2026-10-09):** The roadmap status block and checked items below are historical project-document claims, not verified implementation evidence for the current public repository. The current repository's README identifies this tree as a research/design package and states that no executable CALCULA engine or reproducible engine test suite is present here. Values such as LQ 0.916 and Conservation Law 1.008 are design/documentation values, not independently established scientific or operational results. Do not treat earlier “engine built” or “tests passing” checkmarks as current verification until the corresponding source, tests, and repeatable CI results exist in this repository.
+
 *Conservation Law 0: L × D × A = 1.008*
 
 ---
 
-## Current Status: v0.5.0 ✅
+## Historical status snapshot: v0.5.0 (not verified against the current repository)
 
 ```
 Colony Composite LQ:   0.916  ✅
